@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fetch Respositoreis</title>
+    <link rel="stylesheet" href="./dist/main.css" />
+  </head>
+  <body class="flex items-center justify-center">
+    <div class="repos-container w-200 bg-gray-100 m-auto overflow-hidden">
+      <div class="get-repos p-5 flex bg-gray-200">
+        <input
+          class="w-full py-3.75 bg-white px-5 border-none text-xl h-13.5 focus:outline-red-500"
+          type="text"
+          placeholder="Github Username"
+        />
+        <span
+          class="get-button w-35 ml-2.5 h-13.5 bg-red-500 text-white leading-13.5 text-center font-bold cursor-pointer"
+          >Get Repos</span
+        >
+      </div>
+      <div class="show-data p-5 bg-gray-300">
+        <span>No Data To Show</span>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+@import "tailwindcss";
+body {
+  font-family: Tahoma, Arial;
+}
+.repo-box {
+  @apply bg-white p-3.75 not-last:mb-1.25 max-[500px]:flex flex-col items-center justify-center;
+}
+.repos-container .show-data .repo-box a,
+.repos-container .show-data .repo-box span {
+  @apply float-right ml-1 transition rounded-sm text-white text-xs w-22.5 text-center p-1 max-[500px]:mt-2 max-[500px]:min-w-[80%] max-[500px]:py-2;
+}
